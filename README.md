@@ -8,10 +8,10 @@ Il progetto ha come obiettivo la simulazione di un sistema multi-agente in cui:
 - N agenti si dispongono intorno al leader mantenendo una formazione circolare e rispettando le distanze relative tramite un potenziale di formazione.
 
 ### Obiettivi principali
-- **Controllo del leader**: Portare il leader verso un punto goal inizialmente fisso.
+-  **Controllo del leader**: Portare il leader verso un punto goal inizialmente fisso.
 -  **Mantenimento della formazione**: Garantire che gli agenti non-leader mantengano la formazione desiderata rispetto al leader.
--   **Robustezza del sistema**: Verificare la stabilità della formazione in presenza di un goal in movimento a velocità costante.
--     *Analisi delle prestazioni**: Determinare la velocità massima del goal che consente di mantenere la formazione.
+-  **Robustezza del sistema**: Verificare la stabilità della formazione in presenza di un goal in movimento a velocità costante.
+-  **Analisi delle prestazioni**: Determinare la velocità massima del goal che consente di mantenere la formazione.
 
 ### Principali Potenziali Utilizzati
 - **Potenziale Attrattivo**: Agisce sul leader, portandolo verso il goal.

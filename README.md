@@ -24,6 +24,8 @@ Il progetto ha come obiettivo la simulazione di un sistema multi-agente in cui:
 **Tuning dei parametri**:  
   - Viene mostrato come ottimizzare i parametri dei potenziali per garantire robustezza e stabilità.
 
+## Informazioni sui risultati
+Notare che i grafici nel notebook risultano essere statici, per questo vengono realizzate delle Gif durante l'esecuzione grazie a `matplotlib.animation` che permettono di visualizzare il movimento degli agenti. 
 
 ## Contributi
 Questo progetto è stato realizzato da **Giovanni Stefanini** come parte di un'analisi sul controllo di formazione multi-agente, per l'esame di Multiagent Systems.

@@ -1,5 +1,6 @@
-# Formation-Control-con-Leader: Analisi e Implementazione di Sistemi Multi-Agente Basati su Potenziali
+# Formation-Control con Leader
 
+## Analisi e Implementazione di Sistemi Multi-Agente Basati su Potenziali
 Questo repository contiene il notebook **"Formation Control con Leader"**, un'analisi dettagliata e un'implementazione di sistemi multi-agente basati su potenziali. Il notebook guida attraverso la realizzazione di un controllo di formazione per un leader e un gruppo di agenti che mantengono una disposizione circolare intorno al leader.
 
 ## Descrizione del Progetto

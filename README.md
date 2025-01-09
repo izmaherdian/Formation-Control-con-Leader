@@ -26,7 +26,8 @@ Il progetto simula un sistema multi-agente che prevede:
 🔸 **Notebook principale:**  
 Contiene il codice Python e spiegazioni passo-passo. Utilizza le librerie:  
 - 🧮 `numpy` per i calcoli numerici.  
-- 📈 `matplotlib` per la visualizzazione.  
+- 📈 `matplotlib` per la visualizzazione.
+
 🔸 **Tuning dei parametri:**  
 Viene mostrato come ottimizzare i parametri dei potenziali per garantire robustezza e stabilità.
 
@@ -34,6 +35,8 @@ Viene mostrato come ottimizzare i parametri dei potenziali per garantire robuste
 
 ## 🎥 **Informazioni sui Risultati**
 Notare che i grafici nel notebook risultano essere statici, per questo vengono realizzate delle Gif durante l'esecuzione grazie a `matplotlib.animation` che permettono di visualizzare il movimento degli agenti. 
+
+---
 
 ## 💡 **Contributi**
 Questo progetto è stato realizzato da **Giovanni Stefanini** come parte di un'analisi sul controllo di formazione multi-agente, per l'esame di Multiagent Systems.

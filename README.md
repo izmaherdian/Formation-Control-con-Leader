@@ -35,6 +35,8 @@ Demonstrates how to optimize potential parameters to ensure robustness and stabi
 
 ## 🎥 **Results Information**  
 Since the plots in the notebook are static, GIFs are generated during execution using `matplotlib.animation`, allowing for a dynamic visualization of agent movements.  
+![Fixed Goal](./Gif_esperimenti/fixed_goal.gif)
+![Moving Goal](./Gif_esperimenti/moving_goal.gif)
 
 ---  
 

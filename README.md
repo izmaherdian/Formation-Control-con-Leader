@@ -1,42 +1,43 @@
-# 🌟 **Formation-Control con Leader** 🌟
+# 🌟 **Formation Control with Leader** 🌟  
 
-## 🔍 **Analisi e Implementazione di Sistemi Multi-Agente Basati su Potenziali**
-Questo repository contiene il notebook **"Formation Control con Leader"**, un'analisi dettagliata e un'implementazione di sistemi multi-agente basati su potenziali. Il notebook guida attraverso la realizzazione di un controllo di formazione per un leader e un gruppo di agenti che mantengono una disposizione circolare intorno al leader.
+## 🔍 **Analysis and Implementation of Multi-Agent Systems Based on Potentials**  
+This repository contains the notebook **"Formation Control with Leader"**, a detailed analysis and implementation of multi-agent systems based on potentials. The notebook guides through the development of a formation control system for a leader and a group of agents that maintain a circular arrangement around the leader.  
 
----
+---  
 
-## 🛠️ Descrizione del Progetto
-Il progetto simula un sistema multi-agente che prevede:
-- **🤖 Leader:** Un agente guida che si sposta verso un obiettivo (goal) seguendo un potenziale attrattivo.
-- **🌀 Agenti:** Un gruppo di N agenti che mantengono una formazione circolare attorno al leader, grazie a un potenziale di formazione.  
+## 🛠️ Project Description  
+The project simulates a multi-agent system that includes:  
+- **🤖 Leader:** A guiding agent that moves toward a goal following an attractive potential.  
+- **🌀 Agents:** A group of N agents that maintain a circular formation around the leader using a formation potential.    
 
-### 🎯 **Obiettivi Principali**
-- **🚩 Controllo del leader:** Guidare il leader verso un goal inizialmente fisso.  
-- **⚙️ Mantenimento della formazione:** Assicurare che gli agenti non-leader rispettino la disposizione desiderata.  
-- **🔒 Robustezza:** Testare la stabilità della formazione anche con un goal in movimento (a velocità costante).  
-- **📊 Analisi delle prestazioni:** Calcolare la velocità massima del goal che consente di mantenere la formazione. 
+### 🎯 **Main Objectives**  
+- **🚩 Leader Control:** Directing the leader toward a fixed goal.  
+- **⚙️ Formation Maintenance:** Ensuring that non-leader agents respect the desired arrangement.  
+- **🔒 Robustness:** Testing the stability of the formation even with a moving goal (at a constant speed).  
+- **📊 Performance Analysis:** Calculating the maximum goal velocity that allows the formation to remain intact.  
 
-### 🧲 **Principali Potenziali Utilizzati**
-- **Potenziale Attrattivo**: Dirige il leader verso il goal.  
-- **Potenziale di Formazione**: Forza gli agenti a mantenere la formazione rispetto al leader.  
+### 🧲 **Main Potentials Used**  
+- **Attractive Potential**: Directs the leader toward the goal.  
+- **Formation Potential**: Forces agents to maintain formation relative to the leader.  
 
----
+---  
 
-## 📂 Struttura del Progetto
-🔸 **Notebook principale:**  
-Contiene il codice Python e spiegazioni passo-passo. Utilizza le librerie:  
-- 🧮 `numpy` per i calcoli numerici.  
-- 📈 `matplotlib` per la visualizzazione.
+## 📂 Project Structure  
+🔸 **Main Notebook:**  
+Contains Python code with step-by-step explanations. It uses the following libraries:  
+- 🧮 `numpy` for numerical computations.  
+- 📈 `matplotlib` for visualization.  
 
-🔸 **Tuning dei parametri:**  
-Viene mostrato come ottimizzare i parametri dei potenziali per garantire robustezza e stabilità.
+🔸 **Parameter Tuning:**  
+Demonstrates how to optimize potential parameters to ensure robustness and stability.  
 
----
+---  
 
-## 🎥 **Informazioni sui Risultati**
-Notare che i grafici nel notebook risultano essere statici, per questo vengono realizzate delle Gif durante l'esecuzione grazie a `matplotlib.animation` che permettono di visualizzare il movimento degli agenti. 
+## 🎥 **Results Information**  
+Since the plots in the notebook are static, GIFs are generated during execution using `matplotlib.animation`, allowing for a dynamic visualization of agent movements.  
 
----
+---  
 
-## 💡 **Contributi**
-Questo progetto è stato realizzato da **Giovanni Stefanini** come parte di un'analisi sul controllo di formazione multi-agente, per l'esame di Multiagent Systems.
+## 💡 **Contributions**  
+This project was developed by **Giovanni Stefanini** as part of an analysis on multi-agent formation control for the Multiagent Systems exam.  
+
